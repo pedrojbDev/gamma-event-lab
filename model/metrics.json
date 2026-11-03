@@ -1,0 +1,38 @@
+{
+  "threshold": 0.9060388561468798,
+  "validation_fpr": 0.04929051530993279,
+  "test": {
+    "roc_auc": 0.9288421033518539,
+    "fpr": 0.04626865671641791,
+    "recall": 0.570154095701541,
+    "confusion_matrix_tn_fp_fn_tp": [
+      1278,
+      62,
+      1060,
+      1406
+    ]
+  },
+  "majority_baseline_confusion_tn_fp_fn_tp": [
+    0,
+    1340,
+    0,
+    2466
+  ],
+  "split_counts": {
+    "train": {
+      "total": 11408,
+      "gamma": 7399
+    },
+    "validation": {
+      "total": 3806,
+      "gamma": 2467
+    },
+    "test": {
+      "total": 3806,
+      "gamma": 2466
+    }
+  },
+  "duration_seconds": 7.139288604000285,
+  "peak_rss_kib": 141692,
+  "iterations": 200
+}
