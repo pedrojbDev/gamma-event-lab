@@ -1,0 +1,12 @@
+{
+  "training_type": "from-scratch",
+  "dataset_license": "CC-BY-4.0",
+  "dataset_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/magic/magic04.data",
+  "dataset_sha256": "e9314b7ebd4b4b59a3b3d65f7316663963777b16a46786877651dbbaa640b36a",
+  "training_commit": "d51efb7805e5c497e9b52c69773ba2a8cf33649c",
+  "split_method": "seed 42, stratified unique feature groups 60/20/20",
+  "artifact_sha256": "a2e7b7c81bc05e26d5a21760d88714aef59d066cb0f35bb165a99857c20ed8de",
+  "seed": 42,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "model": "sklearn MLPClassifier (32,16)"
+}
